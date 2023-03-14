@@ -7,7 +7,10 @@ body,
   height: 100%;
   width: 100%;
   font-family: "Inter", sans-serif;
-  background-color: #eeeaeb;
+  background-color: #eefaff;
+  background-image: url("/public/img/web/backimg.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 ::-webkit-scrollbar {

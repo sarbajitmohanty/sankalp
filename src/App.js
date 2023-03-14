@@ -19,7 +19,14 @@ function App() {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
   return (
-    <div className="app">
+    <div
+      className="app"
+      // style={{
+      //   backgroundImage: `url(${
+      //     process.env.PUBLIC_URL + "/img/background.png"
+      //   })`,
+      // }}
+    >
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />

@@ -1,20 +1,42 @@
+import { Box, Typography, useMediaQuery } from "@mui/material";
+import { height } from "@mui/system";
 import React from "react";
+import { ReactComponent as Banner } from "assets/web/banner.svg";
+import Sankalp from "assets/web/sankalp.png";
 
 const Home = () => {
+  const isNonMobile = useMediaQuery("(min-width: 600px)");
   return (
-    <div id="#home">
-      <h2>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </h2>
-    </div>
+    <Box
+      m="1.5rem 2.5rem"
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      // height="100vh"
+      alignItems="center"
+      style={{ padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem" }}
+    >
+      <Box
+        component="img"
+        sx={{
+          width: isNonMobile ? 470 : 300,
+        }}
+        src={Sankalp}
+      />
+      <Typography
+        variant="h3"
+        padding="2rem"
+        style={{
+          textAlign: isNonMobile ? "justify" : "center",
+          textJustify: "inter-word",
+        }}
+      >
+        30th March - 31st March 2023
+      </Typography>
+      {/* <div style={{ width: "100px", height: "400px" }}></div>
+      <div style={{ width: "100px", height: "400px" }}></div>
+      <div style={{ width: "100px", height: "400px" }}></div> */}
+    </Box>
   );
 };
 

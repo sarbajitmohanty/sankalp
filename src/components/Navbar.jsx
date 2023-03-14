@@ -22,6 +22,7 @@ import {
   useTheme,
 } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
+import Banner from "assets/web/banner.png";
 
 const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
   const theme = useTheme();
@@ -35,7 +36,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
         position: "sticky",
         background: "transparent",
         boxShadow: "none",
-        backdropFilter: "blur(20px)",
+        // backdropFilter: "blur(10px)",
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -47,9 +48,16 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
             </IconButton>
           )} */}
           <FlexBetween p="0.1rem 0.5rem">
-            <Typography variant="h4" sx={{ color: theme.palette.primary[500] }}>
+            {/* <Typography variant="h4" sx={{ color: theme.palette.primary[500] }}>
               SANKALP 2023
-            </Typography>
+            </Typography> */}
+            <Box
+              component="img"
+              src={Banner}
+              width="100px"
+              onClick={() => navigate("/")}
+              sx={{ cursor: "pointer" }}
+            />
           </FlexBetween>
         </FlexBetween>
 
