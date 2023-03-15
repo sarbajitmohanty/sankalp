@@ -12,7 +12,7 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import { SettingsOutlined, ChevronLeft } from "@mui/icons-material";
+import { ChevronLeft } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
@@ -31,9 +31,10 @@ const Sidebar = ({
     <Box component="drawer">
       {isSidebarOpen && (
         <Drawer
+          hideBackdrop="true"
           open={isSidebarOpen}
           onClose={() => setIsSidebarOpen(false)}
-          variant="persistent"
+          variant="temporary"
           anchor="right"
           sx={{
             width: drawerWidth,
@@ -54,7 +55,10 @@ const Sidebar = ({
               alignItems="center"
             >
               <FlexBetween color={theme.palette.primary.main}>
-                <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+                <IconButton
+                  size="large"
+                  onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                >
                   <ChevronLeft />
                 </IconButton>
               </FlexBetween>
@@ -127,22 +131,6 @@ const Sidebar = ({
                 </ListItemButton>
               </ListItem>
             </List>
-          </Box>
-
-          <Box position="absolute" bottom="-11rem">
-            <Divider />
-            <FlexBetween
-              textTransform="none"
-              gap="1rem"
-              m="1.5rem 2rem 2rem 3rem"
-            >
-              <SettingsOutlined
-                sx={{
-                  color: theme.palette.secondary[300],
-                  fontSize: "25px ",
-                }}
-              />
-            </FlexBetween>
           </Box>
         </Drawer>
       )}

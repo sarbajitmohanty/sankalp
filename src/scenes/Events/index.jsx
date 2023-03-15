@@ -12,7 +12,7 @@ const Events = () => {
       m="1.5rem 2.5rem"
       style={{ padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem" }}
     >
-      <Header title="EVENTS" />
+      <Header title="Events" />
       <Box
         mt="20px"
         display="grid"

@@ -36,7 +36,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
         position: "sticky",
         background: "transparent",
         boxShadow: "none",
-        // backdropFilter: "blur(10px)",
+        backdropFilter: "blur(10px)",
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>

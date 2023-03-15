@@ -6,7 +6,10 @@ const Header = ({ title }) => {
   return (
     <Box>
       <Box display="flex" justifyContent="center" alignItems="center">
-        <Typography variant="h1" style={{ color: "#55718b" }}>
+        <Typography
+          variant="h1"
+          style={{ color: "#55718b", fontWeight: "600" }}
+        >
           {title}
         </Typography>
       </Box>

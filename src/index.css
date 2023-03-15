@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"); */
+
+/* font-family: 'Eczar', serif; */
+/* font-family: 'Raleway', sans-serif; */
 
 html,
 body,
@@ -11,6 +17,17 @@ body,
   background-image: url("/public/img/web/backimg.png");
   background-size: cover;
   background-repeat: repeat;
+  font-family: "Raleway", sans-serif;
+}
+
+.MuiButtonBase-root {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.MuiListItemText-primary {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar {

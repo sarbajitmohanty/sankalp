@@ -14,7 +14,10 @@ const Home = () => {
       justifyContent="center"
       // height="100vh"
       alignItems="center"
-      style={{ padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem" }}
+      style={{
+        padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem",
+        height: "80vh",
+      }}
     >
       <Box
         component="img"
