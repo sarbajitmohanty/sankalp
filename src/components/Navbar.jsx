@@ -127,6 +127,17 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
               variant="text"
               size="large"
               onClick={() => {
+                navigate("/gallery");
+              }}
+              sx={btnSx}
+            >
+              GALLERY
+            </ButtonBase>
+            <ButtonBase
+              disableRipple
+              variant="text"
+              size="large"
+              onClick={() => {
                 navigate("/contact");
               }}
               sx={btnSx}

@@ -102,7 +102,7 @@ export const themeSettings = (mode) => {
         fontSize: 40,
       },
       h2: {
-        fontFamily: ["Raleway", "sans-serif"].join(","),
+        fontFamily: ["Eczar", "sans-serif"].join(","),
         fontSize: 32,
       },
       h3: {

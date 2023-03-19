@@ -25,13 +25,29 @@ const Events = () => {
           "& > div": {
             gridColumn: isNonMobile ? undefined : "span 4",
           },
+          marginBottom: "2rem",
         }}
       >
-        <EventCard />
-        <EventCard />
-        <EventCard />
-        <EventCard />
-        <EventCard />
+        <EventCard
+          name="Code One"
+          club="Club Excel"
+          image="https://drive.google.com/uc?export=view&id=1VvQ5Ga5Olc5CYGqOer7jKj0jSqud_M2E"
+          link="https://google.com"
+        />
+        <EventCard
+          name="Code One"
+          club="Club Excel"
+          image="https://drive.google.com/uc?export=view&id=1IHCp8c8mUUuc3uvF-ZxR4V2EHlU08jMo"
+          link="https://google.com"
+        />
+        <EventCard name="Drishyam" club="NCS" link="https://google.com" />
+        <EventCard name="NETRA" club="Club Excel" link="https://google.com" />
+
+        <EventCard
+          name="Code One"
+          club="Club Excel"
+          link="https://google.com"
+        />
       </Box>
     </Box>
   );

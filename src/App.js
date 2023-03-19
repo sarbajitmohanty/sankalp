@@ -13,6 +13,7 @@ import Team from "scenes/Team";
 import Sponsers from "scenes/Sponsers";
 import About from "scenes/About";
 import Contact from "scenes/Contact";
+import GalleryUI from "scenes/Gallery";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
@@ -38,6 +39,7 @@ function App() {
               <Route path="/sponsers" element={<Sponsers />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/gallery" element={<GalleryUI />} />
             </Route>
           </Routes>
         </ThemeProvider>

@@ -7,7 +7,10 @@ const About = () => {
   return (
     <Box
       m="1.5rem 2.5rem"
-      style={{ padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem" }}
+      style={{
+        padding: isNonMobile ? "0 4rem 0 4rem" : "0 0rem 0 0rem",
+        marginBottom: "2rem",
+      }}
     >
       <Header title="About" />
 
@@ -17,6 +20,7 @@ const About = () => {
         style={{
           textAlign: isNonMobile ? "justify" : "center",
           textJustify: "inter-word",
+          fontSize: isNonMobile ? "1.5rem" : "1rem",
         }}
       >
         Established in 1996, NIST has built its grandeur in Southern Odisha
@@ -31,6 +35,7 @@ const About = () => {
         style={{
           textAlign: isNonMobile ? "justify" : "center",
           textJustify: "inter-word",
+          fontSize: isNonMobile ? "1.5rem" : "1rem",
         }}
       >
         SANKALP is a national-level techno-management symposium organized by the
@@ -50,6 +55,7 @@ const About = () => {
         style={{
           textAlign: isNonMobile ? "justify" : "center",
           textJustify: "inter-word",
+          fontSize: isNonMobile ? "1.5rem" : "1rem",
         }}
       >
         In association with ISTE Students Chapter, Sankalp has been bringing
@@ -64,6 +70,7 @@ const About = () => {
         style={{
           textAlign: isNonMobile ? "justify" : "center",
           textJustify: "inter-word",
+          fontSize: isNonMobile ? "1.5rem" : "1rem",
         }}
       >
         There’s an event for everyone where they can exercise their skills and

@@ -31,20 +31,21 @@ body,
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #eeeaeb;
+  background: #83afd7;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #716956;
+  background: #55718b;
+  border-radius: 10px;
 }
 
 /* Handle on Hover */
 ::-webkit-scrollbar-track:hover {
-  background: #4e4f41;
+  background: #344656;
 }

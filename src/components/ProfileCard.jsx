@@ -16,16 +16,17 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { useTheme } from "@mui/material";
 
-const ProfileCard = () => {
+const ProfileCard = ({ name, desg, image, phone }) => {
   const theme = useTheme();
   return (
     <Card sx={{ maxWidth: 320, "& .MuiCardContent-root": { padding: "10px" } }}>
       <CardMedia
         component="img"
-        height="200"
+        height="300"
         // image="/static/images/cards/paella.jpg"
-        image="https://images.pexels.com/photos/3979134/pexels-photo-3979134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt="Paella dish"
+        image={image}
+        alt={name}
+        style={{ objectFit: "cover" }}
       />
       <CardContent
         style={{
@@ -33,14 +34,21 @@ const ProfileCard = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#55718b",
+          // backgroundColor: "#55718b",
         }}
       >
         <Typography variant="h4" color="text.primary">
-          KAJAL KUMARI JHA
+          {name}
         </Typography>
         <Typography variant="h5" color="text.secondary">
-          +91 999988877
+          {desg}
+        </Typography>
+        <Typography
+          variant="h6"
+          color="text.secondary"
+          sx={{ fontFamily: "Eczar, serif" }}
+        >
+          {phone}
         </Typography>
       </CardContent>
     </Card>

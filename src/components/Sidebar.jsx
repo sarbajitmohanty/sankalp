@@ -122,6 +122,17 @@ const Sidebar = ({
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemText
+                    primary={"GALLERY"}
+                    onClick={() => {
+                      setIsSidebarOpen(!isSidebarOpen);
+                      navigate("/gallery");
+                    }}
+                  />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText
                     primary={"CONTACT"}
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
