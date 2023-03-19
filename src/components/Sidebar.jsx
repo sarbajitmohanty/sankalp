@@ -7,14 +7,14 @@ import {
   List,
   ListItem,
   ListItemButton,
-  ListItemIcon,
+  // ListItemIcon,
   ListItemText,
-  Typography,
+  // Typography,
   useTheme,
 } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";
-import { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+// import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 
 const Sidebar = ({
@@ -23,7 +23,7 @@ const Sidebar = ({
   setIsSidebarOpen,
   isNonMobile,
 }) => {
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
   const navigate = useNavigate();
   const theme = useTheme();
 

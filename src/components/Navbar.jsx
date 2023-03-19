@@ -1,27 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  LightModeOutlined,
-  DarkModeOutlined,
+  // LightModeOutlined,
+  // DarkModeOutlined,
   Menu as MenuIcon,
-  Search,
-  SettingsOutlined,
-  ArrowDropDownOutlined,
+  // Search,
+  // SettingsOutlined,
+  // ArrowDropDownOutlined,
 } from "@mui/icons-material";
 import FlexBetween from "./FlexBetween";
 import {
   AppBar,
   Box,
-  Button,
+  // Button,
   ButtonBase,
   IconButton,
-  InputBase,
-  Menu,
-  MenuItem,
+  // InputBase,
+  // Menu,
+  // MenuItem,
   Toolbar,
-  Typography,
+  // Typography,
   useTheme,
 } from "@mui/material";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Banner from "assets/web/banner.png";
 
 const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
