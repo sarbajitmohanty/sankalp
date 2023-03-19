@@ -19,7 +19,15 @@ import { useTheme } from "@mui/material";
 const ProfileCard = ({ name, desg, image, phone }) => {
   const theme = useTheme();
   return (
-    <Card sx={{ maxWidth: 320, "& .MuiCardContent-root": { padding: "10px" } }}>
+    <Card
+      sx={{
+        maxWidth: 320,
+        "& .MuiCardContent-root": { padding: "10px" },
+        "& .css-46bh2p-MuiCardContent-root:last-child": {
+          paddingBottom: "10px",
+        },
+      }}
+    >
       <CardMedia
         component="img"
         height="300"

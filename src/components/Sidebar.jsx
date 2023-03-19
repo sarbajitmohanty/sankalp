@@ -130,7 +130,7 @@ const Sidebar = ({
                   />
                 </ListItemButton>
               </ListItem>
-              <ListItem disablePadding>
+              {/* <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemText
                     primary={"CONTACT"}
@@ -140,7 +140,7 @@ const Sidebar = ({
                     }}
                   />
                 </ListItemButton>
-              </ListItem>
+              </ListItem> */}
             </List>
           </Box>
         </Drawer>

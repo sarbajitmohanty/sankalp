@@ -133,7 +133,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
             >
               GALLERY
             </ButtonBase>
-            <ButtonBase
+            {/* <ButtonBase
               disableRipple
               variant="text"
               size="large"
@@ -143,7 +143,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
               sx={btnSx}
             >
               CONTACT
-            </ButtonBase>
+            </ButtonBase> */}
           </FlexBetween>
         )}
         {!isNonMobile && (
