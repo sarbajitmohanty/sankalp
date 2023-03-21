@@ -24,7 +24,7 @@ const Home = () => {
         sx={{
           width: isNonMobile ? 470 : 300,
         }}
-        src={Sankalp}
+        src="https://sankalpiste.s3.ap-south-1.amazonaws.com/sankalpfull.png"
       />
       <Typography
         variant="h3"

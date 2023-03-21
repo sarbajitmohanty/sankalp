@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 
-const SubHeading = ({ subtitle }) => {
+const SubHeading = ({ subtitle, width }) => {
   return (
     <Box>
       <Box
@@ -18,7 +18,7 @@ const SubHeading = ({ subtitle }) => {
         </Typography>
         <Box
           sx={{
-            width: "15rem",
+            width: `${width}rem`,
             height: "5px",
             borderRadius: "10px",
             backgroundColor: "#55718b",

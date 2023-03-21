@@ -14,7 +14,7 @@ body,
   width: 100%;
   font-family: "Inter", sans-serif;
   background-color: #eefaff;
-  background-image: url("/public/img/web/backimg.png");
+  background-image: url("https://sankalpiste.s3.ap-south-1.amazonaws.com/backimg.png");
   background-size: cover;
   background-repeat: repeat;
   font-family: "Raleway", sans-serif;

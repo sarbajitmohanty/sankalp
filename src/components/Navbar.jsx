@@ -53,7 +53,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
             </Typography> */}
             <Box
               component="img"
-              src={Banner}
+              src="https://sankalpiste.s3.ap-south-1.amazonaws.com/banner.png"
               width="100px"
               onClick={() => navigate("/")}
               sx={{ cursor: "pointer" }}
@@ -86,7 +86,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
             >
               ABOUT
             </ButtonBase>
-            <ButtonBase
+            {/* <ButtonBase
               disableRipple
               variant="text"
               size="large"
@@ -96,7 +96,7 @@ const Navbar = ({ isNonMobile, isSidebarOpen, setIsSidebarOpen }) => {
               sx={btnSx}
             >
               SPONSERS
-            </ButtonBase>
+            </ButtonBase> */}
             <ButtonBase
               disableRipple
               variant="text"

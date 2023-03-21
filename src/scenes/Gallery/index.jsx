@@ -39,100 +39,100 @@ const GalleryUI = () => {
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1QBDZxNWhoTcTUR3UN7FTdtr4XVtHgAsE"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(5).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=19SO_f8meRFWSLRseZkHIWOKJRDP8ITek"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(8).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1V9Vn0DZdakr9P6zAmcUedJNY0ARs3Dq8"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(9).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1vPPj87q8hPuO_ycYGK7ZPzCVh1bv1cSZ"
-          sx={{ boxShadow: 6 }}
-        />
-
-        <Box
-          component="img"
-          style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1yUuuf1H3a4mvJZfeRewF3pIzWlQ6fAqv"
-          sx={{ boxShadow: 6 }}
-        />
-        <Box
-          component="img"
-          style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1jZpcvcWQ6eGYKkeHp5ZPyKjwBzjkLk1q"
-          sx={{ boxShadow: 6 }}
-        />
-        <Box
-          component="img"
-          style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=19nLxD-HKrQdVF86NKvKgQHmf-eBc-Hjf"
-          sx={{ boxShadow: 6 }}
-        />
-        <Box
-          component="img"
-          style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1h_1E11uf2E2cTddhj8WL-bRsV2l293ab"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(10).jpeg"
           sx={{ boxShadow: 6 }}
         />
 
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1LlRXL6Rhamac8xD0ZglsFoG_e-E_V_6a"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(11).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=17r2Cq_jG3RvnCgKZXrRxThP58doujrSj"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(14).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1v-InMe3NJCFMg1XrquPJAdxIAtIRLnIl"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(16).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1TdOyG7-0EKkHxfnrjZTUEBK1vlah8b9K"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(18).jpeg"
           sx={{ boxShadow: 6 }}
         />
 
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1Dir5s7d1cqyerb-c9QMmiN5fX4lrb9XR"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(21).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1XFtHNL90HWQMxyq37MvUph5gnXaYxIf8"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(22).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1P8v0PXuA3EbdCJopX0HzB4eH_q27WqJv"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(23).jpeg"
           sx={{ boxShadow: 6 }}
         />
         <Box
           component="img"
           style={boxStyle}
-          src="https://drive.google.com/uc?export=view&id=1BWMY62yyFsDqyhRKJbR33noO8RyQxU7s"
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(30).jpeg"
+          sx={{ boxShadow: 6 }}
+        />
+
+        <Box
+          component="img"
+          style={boxStyle}
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(35).jpeg"
+          sx={{ boxShadow: 6 }}
+        />
+        <Box
+          component="img"
+          style={boxStyle}
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(37).jpeg"
+          sx={{ boxShadow: 6 }}
+        />
+        <Box
+          component="img"
+          style={boxStyle}
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(43).jpeg"
+          sx={{ boxShadow: 6 }}
+        />
+        <Box
+          component="img"
+          style={boxStyle}
+          src="https://sankalpiste.s3.ap-south-1.amazonaws.com/10A+(44).jpeg"
           sx={{ boxShadow: 6 }}
         />
       </Box>
